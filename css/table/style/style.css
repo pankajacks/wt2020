@@ -1,0 +1,66 @@
+h1 {
+    border: 1px solid red;
+    text-align: center;
+}
+
+table {
+    /* if width set to 100% the cell will be adjusted automatically */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption::before {
+    content: "Table 1: ";
+    font-style: normal;
+    color: aqua;
+}
+
+table caption {
+    font-size: 15px;
+    font-style: italic;
+    caption-side: bottom;
+    text-align: right;
+}
+
+td {    
+    border: 1px solid green;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+th {
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid blueviolet;
+}
+
+thead {
+    background-color: rgb(5, 165, 5);
+    text-align: left;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: bisque;
+}
+
+tbody tr td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #ff0;
+    cursor: pointer;
+}
+
+tfoot {
+    font-weight:bold;
+    font-size: 20px;
+}
+
+tfoot td:first-child {
+    text-align: right;
+    padding-right: 10px;
+    color: red;
+}
