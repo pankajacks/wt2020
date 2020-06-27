@@ -1,0 +1,51 @@
+h1 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table caption {
+    margin-top: 5px;
+    font-size: 15px;
+    font-style: italic;
+    caption-side: bottom;
+    text-align: right;
+}
+
+thead {
+    background-color: yellowgreen;
+    font-size: 20px;
+    color: white;
+}
+
+th {
+    height: 40px;
+}
+
+td {
+    padding: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+tbody tr:hover {
+    background-color: #cccccc;
+}
+
+tfoot td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
