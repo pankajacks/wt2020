@@ -1,0 +1,44 @@
+h1 {
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0px blue;
+}
+
+.links a {
+    font-size: 23px;
+    text-decoration: none;
+    border: 1px green solid;
+    padding: 5px;
+    color: red;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.container {
+    /* border: 1px solid blueviolet; */
+    width: fit-content;
+    /* padding: 5px; */
+    font-size: 20px;
+    clear: right;
+}
+
+.container ul {
+    background-color: #ccc;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+} 
+
+.container ul li {
+    /* float: left; */
+    padding: 6px;
+}
+
+.container ul li:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
