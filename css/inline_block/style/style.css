@@ -1,0 +1,53 @@
+h1 {
+    background-color: dodgerblue;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.inline {
+    background-color: rgb(22, 230, 22);
+}
+
+.inline a {
+    display: inline-block;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.inline a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Block Element CSS */
+
+.block {
+    margin-top: 10px;
+}
+
+
+.block p {
+    /* display: inline; */
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.b {
+    display: none;
+}
+
+div:last-child {
+    font-size: 30px;
+    
+}
+
+div:last-child span {
+    display: inline-block;
+    border: 1px solid green;
+    height: 100px;
+}
