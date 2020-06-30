@@ -1,0 +1,12 @@
+h1 {
+    border: 3px solid red;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+}
