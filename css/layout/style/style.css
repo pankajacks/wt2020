@@ -1,0 +1,91 @@
+.header {
+    /* border: 1px solid red; */
+    overflow: auto;
+    position: relative;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 5px;
+}
+
+.title {
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+    font-size: 7vw;
+    margin-left: 10px;
+}
+
+.nav {
+    margin-top: 10px;
+    background-color: yellowgreen;
+    position: sticky;
+    top: 0;
+    /* text-align: center; */
+    /* border: 1px solid green; */
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3vw;
+    padding: 5px 20px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin-top: 2px;
+    /* border: 1px solid black; */
+}
+
+.section {
+    margin: 10px 0;
+    background-color: rgb(173, 108, 233);
+    overflow: auto;
+    height: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.subheading {
+    font-size: 3vw;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.leftside {
+    float: left;
+    width: 70%;
+}
+
+.rightside {
+    float: left;
+    width: 30%;
+}
+
+.s1 {
+    background-color: rgb(231, 67, 67);
+}
+.s2 {
+    background-color: rgb(141, 246, 109);
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
