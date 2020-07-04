@@ -1,0 +1,75 @@
+h1  {
+    margin: 0;
+    border: 1px solid cyan;
+    text-align: center;
+    padding: 10px 0;
+    color: brown;
+}
+
+.grid-container {
+    margin-top: 10px;
+    display: grid;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); */
+    row-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 5px;
+}
+
+.grid-container div {
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+
+/* Another Example of Grid using line-based alignment */
+
+.grid-container-2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.grid-container-2 div {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid yellowgreen;
+    background-color: rgba(255, 255, 0, 0.2);
+    font-size: 20px;
+    
+}
+
+.g21 {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.g22 {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.g23 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.g24 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.g25 {
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.g26 {
+    grid-column: 1/4;
+    grid-row: 4;
+}

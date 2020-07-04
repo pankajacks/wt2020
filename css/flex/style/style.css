@@ -1,0 +1,61 @@
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    height: 300px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+}
+
+.container div {
+    background-color: blueviolet;
+    margin: 2px;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.box1 {
+    order: 1;
+    align-self: flex-start;
+    /* flex: 1 1 auto */
+    /* flex:auto; */
+    /* flex-basis: auto; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+}
+
+.box2 {
+    /* flex: 0 1 auto; */
+    flex: initial;
+    order: 2;
+    /* flex-grow: 4; */
+    /* line-height: 250px; */
+    font-size: 30px;
+    padding: 25px 0;
+    /* height: 200px; */
+}
+
+.box3 {
+    /* flex: 0 0 auto; */
+    flex: none;
+    order: 3;
+    align-self: flex-end;
+    /* flex-grow: 4; */
+}
