@@ -1,0 +1,18 @@
+{
+    "MH": {
+            "state":"Maharashtra",
+            "city":["Pune","Nagpur","Sholapur"]
+        },
+    "MP": {
+            "state":"Madhya Pradesh",
+            "city":["Bhopal","Rewa","Jabalpur","Indore"]
+        },
+    "KR": {
+            "state":"Karnataka",
+            "city":["Bengluru","Mysore","Tumkuru","Belagavi"]
+        },
+    "UP": {
+            "state":"Uttar Pradesh",
+            "city":["Agra","Lucknow","Jhansi"]
+        }
+}
