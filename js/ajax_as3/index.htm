@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="lib/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1>My Restaurant</h1>
+    <div id="search">
+        <input type="text" name="item" id="item" placeholder="Search item">
+        <button class="button buttonAdd" id="addButton">Add Selected Item</button>
+    </div>
+    <ul id="itemList">
+        <li><label for="chkb1"><input id="chkb1"type="checkbox" name="c1">Item 1</label></li>
+        <li><label><input type="checkbox" name="c1">Item 1</label></li>
+        <li><label><input type="checkbox" name="c1">Item 1</label></li>
+    </ul>
+    <div id="myOrder">
+        <h2>My Order</h2>
+        <table border="1" id="myOrderList">
+            <tr><td>Sr</td><td>Name</td><td>Price</td><td>&nbsp;</td></tr>
+            <tr><td>1</td><td>Item 1</td><td>19.3</td><td><button class="buttonX">X</button></td></tr>
+            <tr><td colspan="2">Total price(10 item)</td><td>50</td><td>&nbsp;</td></tr>
+        </table>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

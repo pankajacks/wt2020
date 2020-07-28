@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    outline: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+ul li {
+    margin-bottom: 4px;
+    font-size: 27px;
+}
+
+:checked {
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid yellowgreen;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonX {
+    background-color: #af4c4c; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonAdd {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+  
+.buttonAdd:hover {
+    background-color: #008CBA;
+    color: white;
+}
