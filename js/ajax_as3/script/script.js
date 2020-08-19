@@ -1,4 +1,4 @@
-let url = "https://davids-restaurant.herokuapp.com/menu_items.json"
+let url = "https://davids-restaurant.herokuapp.com/menu_items.json";
 
 let data = null;
 let buyItemList = [];
@@ -36,6 +36,7 @@ $("document").ready(function(){
         let itemListNode = document.querySelector("#itemList");
         itemListNode.innerHTML = "";
 
+        //<label><input type='checkbox' value="12"/>XYZ</label>
         for (const itemIndex of itemList) {
             let itemObj = data[itemIndex];
             let li = document.createElement("li");
@@ -45,9 +46,9 @@ $("document").ready(function(){
             let label = document.createElement('label');
             label.appendChild(chkbox);
             label.appendChild(document.createTextNode(itemObj.name));
+            //<li>name</li>
             li.appendChild(label);
             itemListNode.appendChild(li);
-
         }
     }
 
