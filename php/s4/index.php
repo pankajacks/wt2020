@@ -23,7 +23,7 @@ if ($row_count > 0) {
         $student_arr['records'][] = $row;
     }
 
-    // echo json_encode($student_arr);
+    echo json_encode($student_arr);
 }
 
 $prn = $_GET['prn'];

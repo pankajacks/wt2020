@@ -17,8 +17,8 @@ $row = array();
 
 if (isset($_GET['prn'])) {
 
-    $prn = $_GET['prn'];
-    $stmt = $student->getStudentByPrn($prn);
+    $student->prn = $_GET['prn'];
+    $stmt = $student->getStudentByPrn();
     $row = $stmt->fetch(\PDO::FETCH_ASSOC);
 
 }

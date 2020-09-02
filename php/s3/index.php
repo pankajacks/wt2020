@@ -8,11 +8,15 @@
 <body>
     <script src="jquery-3.5.1.min.js"></script>
     <script>
-        let base_url = "http://localhost/wt2020/php/s3/student.php";
+        // let base_url = "http://localhost/wt2020/php/s3/student.php";
+        let base_url = "http://edutechclsx.000webhostapp.com/api/test/";
 
         $("document").ready(function(){
-            getStudentNameList();
-            getStudentByPrn(12345);
+            // getStudentNameList();
+            // getStudentByPrn();
+            $.get(base_url,function(data,success){
+                console.log(data);
+            });
         });
 
         function getStudentNameList() {
@@ -23,7 +27,8 @@
             });
         }
 
-        function getStudentByPrn(prn) {
+        function getStudentByPrn() {
+            let prn = 12345;
             let url = base_url + "?req=student_data&prn="+prn;
             $.get(url,function(data,success){
                 console.log(data.length);
