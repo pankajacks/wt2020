@@ -1,0 +1,18 @@
+.head {
+    font-size: 30px;
+    color: brown;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: 1px solid red;
+    text-align: center;
+    width: fit-content;
+}
+
+#chart1 {
+    border: 1px solid green;
+    margin: 20px auto 0;
+    position: relative;
+    width: 70vh;
+    height: 35vh;
+    padding: 10px;
+}
