@@ -1,0 +1,118 @@
+.container {
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    font-size: 20px;
+    padding: 5px;
+}
+
+.inp_div {
+    border: 1px solid rgb(188, 238, 188);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.inp_div:focus-within {
+    border: 1px solid rgb(65, 172, 65);
+}
+
+label {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 25%;
+    text-align: right;
+}
+
+input {
+    /* border: 1px solid blue; */
+    width: 65%;
+    font-size:17px;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    outline: none;
+    padding:5px 5px 0;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.inp_btn {
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.fail {
+    padding: 5px;
+    /* display: inline-block; */
+    margin: 10px 40px 20px;
+    color: white;
+    border: 1px solid rgba(255, 0, 0, 0.8);
+    background-color: rgba(255, 0, 5, 0.5);
+    border-radius: 7px;  
+    text-align:center;
+}
+
+.success {
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 5px 30px 20px;
+    border: 1px solid rgba(23, 245, 23, 0.931);
+    text-align:center;
+}
+
+.head {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+@media only screen and (max-width: 600px){
+    .container {
+        margin: 10px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container {
+        margin: 100px 200px;
+    }
+    label, input, button {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .container {
+        margin: 100px 350px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container {
+        margin: 100px 450px;
+    }
+    label {
+        font-size: 23px;
+    }
+    
+    input, button {
+        font-size: 20px;
+    }
+}
